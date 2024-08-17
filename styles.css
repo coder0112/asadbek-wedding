@@ -1,5 +1,6 @@
-body, html {
+.body, html {
     height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,16 +11,18 @@ body, html {
     background-size:98%;
 }
 .aaa{
-    font-family: "Academy Engraved LET";
+    font-family: "Academy Engraved LET" , serif;
 }
 .bbb{
-    font-family: "American Typewriter";
+    font-family: "American Typewriter", serif;
 }
 
+
 .invitation {
-    width: 100%;
+
+    width: 90%;
     max-width: 500px;
-    margin-right: 400px;
+    margin: 20px auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.9); 
     color: #444;
