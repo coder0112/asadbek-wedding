@@ -10,8 +10,8 @@ function updateCountdown() {
 
     document.getElementById('days').innerHTML = days + " <span>kun</span>";
     document.getElementById('hours').innerHTML = hours + " <span>soat</span>";
-    document.getElementById('minutes').innerHTML = minutes + " <span>daqiqalar</span>";
-    document.getElementById('seconds').innerHTML = seconds + " <span>soniyalar</span>";
+    document.getElementById('minutes').innerHTML = minutes + " <span>daqiqa</span>";
+    document.getElementById('seconds').innerHTML = seconds + " <span>soniya</span>";
 
     if (distance < 0) {
         clearInterval(interval);

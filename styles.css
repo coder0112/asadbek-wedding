@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;      
     font-family: 'Arial', sans-serif;
-    background: url('https://media.istockphoto.com/id/636264250/photo/valentines-day-card-ribbon-shaped-hearts-on-shiny-background.webp?b=1&s=612x612&w=0&k=20&c=nAkxknNYB0kbfUJnlScawlw3Eyb-Tf8b33IOVHRezVc=') no-repeat center center fixed;
+    background: url('https://media.istockphoto.com/id/1495386354/photo/concept-of-wedding-accessories-with-wedding-rings-on-white-background.jpg?s=1024x1024&w=is&k=20&c=WGYI6v94aPjpgGM5fneOLcywFAKxbeGwlLnz5dug-K0=') no-repeat center center fixed;
     background-size:98%;
 }
 .aaa{
@@ -28,7 +28,9 @@
     color: #444;
     text-align: center;
     border: 2px solid #f5f5f5;  
-    box-shadow: 0 0 15px rgba(0,0,0,0.7);  
+    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+    background: url('https://media.istockphoto.com/id/636264250/photo/valentines-day-card-ribbon-shaped-hearts-on-shiny-background.jpg?s=1024x1024&w=is&k=20&c=2o9Vvw4DRloDiJ-2ozRwBy56LwszzGWv33V6aPFJb_I=') no-repeat center center fixed;
+    background-size:98%;
 }
 
 header h1, .details h2 {
@@ -43,7 +45,8 @@ header h1, .details h2 {
 }
 
 .time {
-    background: rgba(254, 182, 182, 0.9);  
+    background: rgba(31, 57, 223, 0.9);
+    color: #ffffff;
     padding: 10px 20px;
     border-radius: 10px;
 }
@@ -58,7 +61,7 @@ header h1, .details h2 {
     margin-top: 10px;
     padding: 10px 20px;
     background-color: #d60051;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
