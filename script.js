@@ -20,3 +20,19 @@ function updateCountdown() {
 }
 
 const interval = setInterval(updateCountdown, 1000);
+
+const audioElement = document.getElementById('myAudio');
+const playPauseBtn = document.getElementById('playPauseBtn');
+
+let isPlaying = false;
+
+function toggleAudio() {
+    if (isPlaying) {
+        audioElement.pause();
+    } else {
+        audioElement.play();
+    }
+    isPlaying = !isPlaying;
+}
+
+playPauseBtn.addEventListener('click', toggleAudio);

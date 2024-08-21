@@ -8,13 +8,18 @@
     align-items: center;      
     font-family: 'Arial', sans-serif;
     background: url('https://media.istockphoto.com/id/1495386354/photo/concept-of-wedding-accessories-with-wedding-rings-on-white-background.jpg?s=1024x1024&w=is&k=20&c=WGYI6v94aPjpgGM5fneOLcywFAKxbeGwlLnz5dug-K0=') no-repeat center center fixed;
-    background-size:98%;
+    background-attachment: fixed;
 }
 .aaa{
     font-family: "Academy Engraved LET" , serif;
+    color: crimson;
 }
 .bbb{
     font-family: "American Typewriter", serif;
+    color: crimson;
+}
+.details{
+    color: crimson;
 }
 
 
@@ -29,8 +34,8 @@
     text-align: center;
     border: 2px solid #f5f5f5;  
     box-shadow: 0 0 15px rgba(0,0,0,0.7);
-    background: url('https://media.istockphoto.com/id/636264250/photo/valentines-day-card-ribbon-shaped-hearts-on-shiny-background.jpg?s=1024x1024&w=is&k=20&c=2o9Vvw4DRloDiJ-2ozRwBy56LwszzGWv33V6aPFJb_I=') no-repeat center center fixed;
-    background-size:98%;
+
+
 }
 
 header h1, .details h2 {
